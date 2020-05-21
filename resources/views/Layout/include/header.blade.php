@@ -10,17 +10,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Pricing</a>
-        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #8AA5FC;">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <a class="navbar-brand" href="/"><i class="fas fa-percentage"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="col-md-6">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            {{--Gunakan untuk membuat active tag secara dinamis pada navbar--}}
+            <a class="nav-item nav-link @yield('home-active')" href="/">Home</a>
+            <a class="nav-item nav-link @yield('about-active')" href="/about">About</a>
+            <a class="nav-item nav-link @yield('product-active')" href="/product">Product</a>
+            <a class="nav-item nav-link @yield('services-active')" href="/services">Services</a>
+            <a class="nav-item nav-link @yield('porto-active')" href="/portfolio">Portofolio</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
