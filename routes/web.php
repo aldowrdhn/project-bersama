@@ -19,9 +19,7 @@ Route::get('/', function () {
 Route::get('/about',function(){
     return view('Page.about');
 });
-Route::get('/product',function(){
-    return view('Page.product');
-});
+Route::get('/product','ronaldoController@Product');
 Route::get('/services',function(){
     return view('Page.services');
 });
