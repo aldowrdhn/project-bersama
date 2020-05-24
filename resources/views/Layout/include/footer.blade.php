@@ -1,6 +1,6 @@
  <footer>
    <div class="container-fluid">
-    <div class="row py-3 mt-3"style="background-color: #8AA5FC;">
+    <div class="row py-3"style="background-color: #8AA5FC;">
       <div class="col-md-4 my-auto">
         <h1><i class="fas fa-percentage text-white"></i></h1>
       </div>
