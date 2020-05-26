@@ -30,6 +30,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navbar.box-shadow{
+    box-shadow: 0px 10px 28px -2px rgba(0,0,0,0.57);
+}
   </style>
   <section>
     <div class="section">      
