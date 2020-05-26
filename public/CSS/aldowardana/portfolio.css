@@ -1,0 +1,109 @@
+.port-atas {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.port-atas .btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #969696;
+    border-radius: 50px;
+    border: 2px solid transparent;
+}
+
+.port-atas .btn.active,
+.port-atas .btn:focus {
+    box-shadow: none;
+    color: #ff7902;
+    border-color: #ff7902;
+}
+
+.port-bawah-img {
+    float: left;
+    position: relative;
+    z-index: 2;
+    width: 33.3333334%;
+    overflow: hidden;
+    transition-duration: 500ms;
+}
+
+
+.port-bawah-img img {
+    width: 100%;
+    transition-duration: 2000ms;
+}
+
+.port-bawah-img .hover-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 121, 2, 0.9);
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 500ms;
+}
+
+.port-bawah-img .hover-img .zoom-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    line-height: 46px;
+    margin-top: -15px;
+    opacity: 0;
+    transition-duration: 500ms;
+}
+
+.port-bawah-img .hover-img h4 {
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.port-bawah-img:hover img {
+    transform: scale(1.1);
+}
+
+.port-bawah-img:hover .hover-img {
+    opacity: 1;
+    visibility: visible;
+}
+
+.port-bawah-img:hover .hover-img .zoom-img {
+    margin-top: 0;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+    .port-bawah-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .port-bawah-img .hover-img h4 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .port-bawah-img .hover-img h4 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .port-bawah-img .hover-img h4 {
+        font-size: 16px;
+    }
+}

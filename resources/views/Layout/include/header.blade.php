@@ -12,6 +12,7 @@
     {{-- Ronaldo Css --}}
     <link rel="stylesheet" href="{{asset('CSS/ronaldo/product.css')}}">
     <link rel="stylesheet" href="{{asset('CSS/aldowardana/index.css')}}">
+    <link rel="stylesheet" href="{{asset('CSS/aldowardana/portfolio.css')}}">
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #8AA5FC;">
