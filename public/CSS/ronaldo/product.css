@@ -1,3 +1,4 @@
+
 .img-product{
     width: 100%;
     height: auto;
@@ -19,8 +20,33 @@
     color: coral;
     transition: color 0.5s;   
 }
+.test-box{
+    position: relative;
+}
+.versi-box p{
+    bottom: 40%;
+}
+.versi-box svg,
+.versi-box p{
+    font-weight: bolder;
+    color: white;
+    display: none;
+    position: absolute;
+    transition: display 0.5s;
+}
+
+.versi-box:hover svg,
+.versi-box:hover p{
+    display: block;
+    transition: display 0.5s;
+}
 
 .versi-box{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     overflow: hidden;
 }
