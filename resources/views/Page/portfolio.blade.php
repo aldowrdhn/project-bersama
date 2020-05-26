@@ -1,5 +1,6 @@
 @extends('Layout.master')
 @section('doc-tittle','Portfolio')
+@section('section-head','Portfolio')
 @section('portfolio-active','active')
 @section('content')
 <div class="pt-5">
