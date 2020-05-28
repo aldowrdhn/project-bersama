@@ -1,10 +1,9 @@
 @extends('Layout.master')
 @section('doc-tittle','About')
-@section('section-head','About');
-@section('home-active','active')
+@section('section-head','About')
+@section('about-active','active')
 @section('content')
 @include('Layout.include.parallax')
-
     <!-- ##### Feature Area Start ##### -->
     <section class="pixel-feature-area d-flex flex-wrap">
         <!-- Feature Thumbnail -->

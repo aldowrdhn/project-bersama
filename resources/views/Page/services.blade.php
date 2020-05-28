@@ -1,7 +1,7 @@
 @extends('Layout.master')
 @section('doc-tittle','Services')
-@section('section-head','Services');
-@section('home-active','active')
+@section('services-active','active')
+@section('section-head','Services')
 @section('content')
 @include('Layout.include.parallax')
 <!-- ##### Service Area Start ##### -->

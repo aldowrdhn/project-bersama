@@ -1,22 +1,22 @@
-h1,
+.section-area h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
-  color: #000000;
+  
   line-height: 1.3;
   font-weight: 500; }
 
-p {
+.section-area p {
   font-family: "Poppins", sans-serif;
   color: #969696;
   font-size: 15px;
   line-height: 2;
   font-weight: 400; }
 
-a,
+  .section-area a,
 a:hover,
 a:focus {
   -webkit-transition-duration: 500ms;
