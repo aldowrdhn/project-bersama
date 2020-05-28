@@ -1,5 +1,5 @@
 @extends('Layout.master')
-@section('doc-tittle','Product')
+@section('doc-tittle','Ala-ala')
 @section('home-active','active')
 @section('content')
 <section>

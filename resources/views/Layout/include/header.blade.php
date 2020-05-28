@@ -11,8 +11,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     {{-- Ronaldo Css --}}
     <link rel="stylesheet" href="{{asset('CSS/ronaldo/product.css')}}">
+    {{-- Aldowardana CSS --}}
     <link rel="stylesheet" href="{{asset('CSS/aldowardana/index.css')}}">
     <link rel="stylesheet" href="{{asset('CSS/aldowardana/portfolio.css')}}">
+    {{-- Adiet_Narto Css --}}
+    <link rel="stylesheet" href="{{asset('CSS/adiet/about.css')}}">
+    <link rel="stylesheet" href="{{asset('CSS/adiet/services.css')}}">
   </head>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" style="background-color: #8AA5FC;">
