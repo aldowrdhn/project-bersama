@@ -37,12 +37,4 @@
       </div>
     </div>
   </nav>
-  <section>
-    <div class="section">      
-      <div class="section-text">
-      <p>@yield('section-head')</p>
-      </div>
-        <div class="parallax"></div>
-  </div>
   
-  </section>

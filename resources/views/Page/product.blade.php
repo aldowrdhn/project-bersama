@@ -3,6 +3,7 @@
 @section('section-head','Our Product');
 @section('product-active','active')
 @section('content')
+@include('Layout.include.parallax')
 <section>
     <div class="container">
         <div class="row my-5">

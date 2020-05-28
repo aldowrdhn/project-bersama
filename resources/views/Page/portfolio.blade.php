@@ -3,6 +3,7 @@
 @section('section-head','Portfolio')
 @section('portfolio-active','active')
 @section('content')
+@include('Layout.include.parallax')
 <div class="pt-5">
     <div class="port-atas">
         <div class="text-center portfolio-menu">
