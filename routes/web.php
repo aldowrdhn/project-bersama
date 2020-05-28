@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','aldowardanaController@Home');
+Route::get('/portfolio','aldowardanaController@Portfolio');
 
 Route::get('/about','adietController@About');
 
@@ -21,6 +22,3 @@ Route::get('/product','ronaldoController@Product');
 
 Route::get('/services','adietController@Services');
 
-Route::get('/portfolio',function(){
-    return view('Page.portfolio');
-});

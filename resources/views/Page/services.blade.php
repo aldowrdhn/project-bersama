@@ -1,8 +1,9 @@
 @extends('Layout.master')
-@section('doc-tittle','Product')
-@section('home-active','active')
+@section('doc-tittle','Services')
+@section('services-active','active')
+@section('section-head','Services')
 @section('content')
-
+@include('Layout.include.parallax')
 <!-- ##### Service Area Start ##### -->
     <section class="pixel-service-area" style="margin-top: 70px;">
         <div class="container">
