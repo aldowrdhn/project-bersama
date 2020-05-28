@@ -6,5 +6,7 @@ use Illuminate\Http\Request;
 
 class aldowardanaController extends Controller
 {
-    //
+    public function Home(){
+        return view('index');
+    }
 }

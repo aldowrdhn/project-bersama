@@ -13,16 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/about',function(){
-    return view('Page.about');
-});
+Route::get('/','aldowardanaController@Home');
+
+Route::get('/about','adietController@About');
+
 Route::get('/product','ronaldoController@Product');
-Route::get('/services',function(){
-    return view('Page.services');
-});
+
+Route::get('/services','adietController@Services');
+
 Route::get('/portfolio',function(){
     return view('Page.portfolio');
 });
