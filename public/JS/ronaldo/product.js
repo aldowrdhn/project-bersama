@@ -18,3 +18,12 @@ document.getElementById('ver1').style.display = "none";
 document.getElementById('ver2').style.display = "none";
 document.getElementById('ver3').style.display = "block";
 }
+window.onscroll=function(){
+    let y = scrollY;
+    if(y>70){
+        document.querySelector('.navbar').classList.add("box-shadow");
+    }
+    else{
+        document.querySelector('.navbar').classList.remove("box-shadow")
+}
+}
